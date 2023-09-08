@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+
+<header>
+  <div class="container">
+    <img onclick="location.href = 'main.html';" src="IMG/logo.png" alt="Logo" class="navbar-logo">
+    <div class="burger-menu" onclick="toggleNavItems()">
+    </div>
+    <div class="burger-menu" onclick="toggleNavItems()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <ul class="nav justify-content-end" id="navItems">
+      <li class="nav-item">
+        <a class="nav-link" href="main.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="all.html">Products</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  href="main.html#after-slider">About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" onclick="location.href = 'contact.html';" href="#">Contact us</a>
+      </li>
+      <li class="nav-item">
+        <a onclick="location.href = 'basket.html';" class="nav-link" href="#"><i class='bx bx-cart' style='color:#ffffff'></i></a>
+      </li>
+    </ul>
+  </div>
+</header>
+
+<!-- LIVE GREEN -->
+
+<nav>
+  <div class="container live-green">
+    <div class="left-side">
+      <p class="left-side-one"><b>START TO CHANGING</b></p>
+      <p class="left-side-two"><b>Live</b> green</p>
+      <p class="left-side-three">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias deserunt ex aliquid perferendis saepe laborum dignissimos magni repellat quaerat nihil excepturi, ullam eum harum?</p>
+      <button onclick="location.href = 'all.html';" class="button-shopping">Shopping</button>
+      <button class="button-learn-more" href="main.html#after-slider">Learn more</button>
+    </div>
+    <div class="right-side">
+      <img class="right-side-photo" src="IMG/livegreen.png" alt="Your Photo">
+    </div>
+  </div>
+</nav>
+
+<!-- ASSORTMENTS -->
+
+<section class="container centered-div"> 
+  <div class="assortments-in-center">
+    Assortments
+  </div>
+</section>
+
+<section class="container assortments">
+  <div class="left">
+    <div class="greenbox-1">
+      <div class="left-text">
+        <h2 class="left-text-1"><b>Tall</b> plants</h2>
+        <ul class="left-text-2">
+          <li class="left-text-2-li">Camellia</li>
+          <li class="left-text-2-li">Hollyhock</li>
+          <li class="left-text-2-li">Rose of Sharon</li>
+          <li class="left-text-2-li">Bloomers</li>
+          <li class="left-text-2-li">Others</li>
+        </ul>
+        <button onclick="location.href = 'tall-plants.html';" class="left-text-3">See products</button>
+      </div>
+      <div class="assortments-1-img">
+        <img class="assortments-1-img" src="IMG/assortments-1.png" alt="Assortments-1">
+      </div>
+    </div>
+  </div>
+  <div class="right">
+    <div class="top">
+      <div class="greenbox-2">
+        <div class="top-text">
+          <h3 class="top-text-1"><b>Mini</b> plants</h3>
+          <ul class="top-text-2">
+            <li>Air Plant</li>
+            <li>Aloe Vera</li>
+            <li>Others</li>
+          </ul>
+          <button class="top-text-3" onclick="location.href = 'mini-plants.html';">See products</button>
+        </div>
+        <div class="assortments-2-img">
+          <img class="assortments-2-img" src="IMG/assortments-2.png" alt="Assortments-1">
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="greenbox-3">
+        <div class="bottom-text">
+          <h3 class="bottom-text-1"><b>Cactus</b> plants</h3>
+          <ul class="bottom-text-2">
+            <li>Air Cacti</li>
+            <li>Bio Cacti</li>
+            <li>Others</li>
+          </ul>
+          <button onclick="location.href = 'cactus-plants.html';" class="bottom-text-3">See products</button>
+        </div>
+        <div class="assortments-3-img">
+          <img class="assortments-3-img" src="IMG/assortments-3.png" alt="Assortments-1">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- SLIDER -->
+
+<section class="slider container">
+  <div class="slides">
+    <div class="slide-1">
+      <div class="slide-greenbox">
+        <img class="slide-greenbox-img-1" src="/IMG/slider-1.png" alt="Slider-1">
+      </div>
+    </div>
+    <div class="slide-2">
+      <div class="slide-greenbox">
+        <img class="slide-greenbox-img-2" src="/IMG/slider-2.png" alt="Slider-2">
+      </div>
+    </div>
+    <div class="slide-3">
+      <div class="slide-greenbox">
+        <img class="slide-greenbox-img-3" src="/IMG/slider-3.png" alt="Slider-3">
+      </div>
+    </div>
+    <div class="slide-4">
+      <div class="slide-greenbox">
+        <img class="slide-greenbox-img-4" src="/IMG/slider-4.png" alt="Slider-4">
+      </div>
+    </div>
+    <div class="slide-5">
+      <div class="slide-greenbox">
+        <img class="slide-greenbox-img-5" src="/IMG/slider-5.png" alt="Slider-5">
+      </div>
+    </div>
+    <div class="slide-6">
+      <div class="slide-greenbox">
+        <img class="slide-greenbox-img-2" src="/IMG/slider-2.png" alt="Slider-2">
+      </div>
+    </div>
+    <div class="slide-7">
+      <div class="slide-greenbox">
+        <img class="slide-greenbox-img-1" src="/IMG/slider-1.png" alt="Slider-1">
+      </div>
+    </div>
+    <div class="slide-8">
+      <div class="slide-greenbox">
+        <img class="slide-greenbox-img-4" src="/IMG/slider-4.png" alt="Slider-4">
+      </div>
+    </div>
+    <div class="slide-9">
+      <div class="slide-greenbox">
+        <img class="slide-greenbox-img-5" src="/IMG/slider-5.png" alt="Slider-5">
+      </div>
+    </div>
+    <div class="slide-10">
+      <div class="slide-greenbox">
+        <img class="slide-greenbox-img-3" src="/IMG/slider-3.png" alt="Slider-3">
+      </div>
+    </div>
+  </div>
+  <button class="prev-btn">&#10094;</button>
+  <button class="next-btn">&#10095;</button>
+</section>
+
+<!-- TEXT AFTER SLIDER -->
+
+<article class="container" id="after-slider">
+  <div class="text-after-slider">
+    <h1>Why are plants important?</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper neque quis libero consectetur, in placerat purus semper. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, placeat? Nisi placeat iusto vero, itaque accusantium quidem corporis explicabo quis quisquam qui quam. Nemo reiciendis iusto nam enim ipsum dignissimos?</p>
+  </div>
+</article>
+
+<!-- PHOTOS -->
+
+<article class="container six-photos">
+  <div class="left-f">
+    <img src="/IMG/f-1.png" alt="F-1">
+  </div>
+  <div class="right-f">
+    <div class="upper-right-f">
+      <div><img src="/IMG/f-2.png" alt="F-2"></div>
+      <div><img src="/IMG/f-3.png" alt="F-3"></div>
+    </div>
+    <div class="lower-right-f">
+      <div><img src="/IMG/f-4.png" alt="F-4"></div>
+      <div><img src="/IMG/f-5.png" alt="F-5"></div>
+      <div><img src="/IMG/f-6.png" alt="F-6"></div>
+    </div>
+  </div>
+</article>
+
+<!-- FEEL GREEN -->
+
+<section>
+  <div class="feel-green-class">
+    <img class="feel-green-img" src="/IMG/feel-green-img.png" alt="Feel Green">
+    <div class="feel-green-text-overlay">
+      <b>Feel green</b>
+    </div>
+  </div>
+</section>
+
+<!-- THEY SAY -->
+
+<article class="container centered-div">
+  <div class="assortments-in-center">
+    They say
+  </div>
+</article>
+
+<article class="container parent">
+  <div class="child">
+    <div class="say">
+      <h4><b>John</b> Smith</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum amet consectetur impedit, laboriosam labore officiis.</p>
+    </div>
+    <div class="circular-image">
+      <img src="/IMG/person-1.png" alt="Person 1">
+    </div>
+  </div>
+  <div class="child">
+    <div class="say">
+      <h4><b>Johanna</b> Sail</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum amet consectetur impedit, laboriosam labore officiis.</p>
+    </div>
+    <div class="circular-image">
+      <img src="/IMG/person-2.png" alt="Person 1">
+    </div>
+  </div>
+  <div class="child">
+    <div class="say">
+      <h4><b>Julie</b> Gerrard</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum amet consectetur impedit, laboriosam labore officiis.</p>
+    </div>
+    <div class="circular-image">
+      <img src="/IMG/person-3.png" alt="Person 1">
+    </div>
+  </div>
+</article>
+
+<!-- FOOTER -->
+
+<footer>
+  <div class="container parent-footer">
+    <div class="child-footer">
+      <img class="footer-logo-1" src="/IMG/logo.png" alt="Logo">
+      <p class="footer-number">+1 (2345) 678-90-12</p>
+      <p class="footer-email">support@lift.agency</p>
+      <p class="footer-icons">
+        <i class='bx bxl-linkedin'></i>
+        <i class='bx bxl-facebook'></i>
+        <i class='bx bxl-twitter'></i>
+      </p>
+    </div>
+    <div class="child-footer second-part">
+      <p><b><a href="#">Quick links</a></b></p>
+      <p><a href="#">Product</a></p>
+      <p><a href="#">About us</a></p>
+      <p><a href="#">Contact</a></p>
+      <p><a href="#">Home</a></p>
+      <p>A product of <img src="/IMG/logo.png" alt="Logo"></p>
+    </div>
+    <div class="child-footer third-part">
+      <p><b>Subscribe</b></p>
+      <div class="input">
+        <input type="text" class="input-field" placeholder="Get product updates">
+        <button class="button-input"></button>
+      </div>
+      <p>© 2021 My Plants All rights reserved</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
